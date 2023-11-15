@@ -1,0 +1,48 @@
+{
+  "name": "workspace",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbo",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@material-tailwind/react": "^2.1.4",
+    "@nextui-org/accordion": "^2.0.28",
+    "@nextui-org/react": "^2.2.9",
+    "@react-stately/collections": "^3.10.3",
+    "@types/node": "20.8.9",
+    "@types/react": "18.2.33",
+    "@types/react-dom": "18.2.14",
+    "animate.css": "^4.1.1",
+    "autoprefixer": "10.4.16",
+    "classnames": "^2.3.2",
+    "embla-carousel-react": "^8.0.0-rc14",
+    "eslint": "8.52.0",
+    "eslint-config-next": "^14.0.1",
+    "framer-motion": "^10.16.4",
+    "next": "^14.0.1",
+    "postcss": "8.4.31",
+    "react": "18.2.0",
+    "react-bootstrap": "^2.9.1",
+    "react-collapse": "^5.1.1",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.12.0",
+    "react-player": "^2.13.0",
+    "react-responsive-carousel": "^3.2.23",
+    "react-slick": "^0.29.0",
+    "slick-carousel": "^1.8.1",
+    "tailwind-animatecss": "^1.0.0",
+    "tw-elements": "^1.0.0",
+    "typescript": "5.2.2"
+  },
+  "devDependencies": {
+    "@types/react-collapse": "^5.0.4",
+    "@types/react-slick": "^0.23.12",
+    "copy-webpack-plugin": "^11.0.0",
+    "file-loader": "^6.2.0",
+    "url-loader": "^4.1.1"
+  }
+}
