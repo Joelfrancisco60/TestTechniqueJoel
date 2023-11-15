@@ -14,8 +14,8 @@ const AccordionCustom: React.FC<AccordionCustomProps> = ({ open, toggle, title, 
         <div className="pt[10px]">
             <div className="bg-gray-100 py-[25px] px-[50px] flex justify-between items-center cursor-pointer border border-black" 
             onClick={toggle}>
-                <p className="text-[22px] font-semibold">{title}</p>
-                <div className="text-[30px]">
+                <p className="text-[22px] font-normal">{title}</p>
+                <div className="text-[30px] bg-slate-600 border-2 border-black rounded-xl text-white">
                     {open ? <AiOutlineMinus /> : <AiOutlinePlus />}
                 </div>
             </div>

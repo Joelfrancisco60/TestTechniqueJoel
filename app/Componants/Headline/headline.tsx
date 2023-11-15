@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Headline() {
     return (
-        <div className="text-gray-500 bg-white md:bg-none ">
+        <div className="text-gray-500 bg-white md:bg-none border-t border-black md:border-none">
             <div className="relative flex-col text-center w-full flex">
                 <div className="absolute bottom-0 w-full hidden md:flex">
                     <Image 
@@ -13,8 +13,8 @@ export default function Headline() {
                         className="w-full blur-[3px] max-h-[317px]"
                     />
                 </div>
-                <h1 className="z-10 pt-16 text-6xl sm:text-8xl font-medium text-white">Headline</h1>
-                <p className="z-10 text-xl sm:text-3xl text-gray-50 pb-4 mt-4">Subheading</p>
+                <h1 className="z-10 pt-16 text-6xl sm:text-8xl font-medium text:black md:text-white">Headline</h1>
+                <p className="z-10 text-xl sm:text-3xl text:black md:text-gray-50 pb-4 mt-4">Subheading</p>
                 {/* <div className="flex justify-center mb-4r sm:mb-8 pb-10">
                     <YellowUnderline />
                 </div> */}
