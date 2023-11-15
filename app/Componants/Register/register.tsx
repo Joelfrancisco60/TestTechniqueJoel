@@ -8,7 +8,7 @@ export default function Register() {
             <div className="relative w-full h-screen">
                 <div className="w-full text-center px-4 pt-12 pb-14">
                     <h1 className="text-6xl sm:text-[3.5rem] font-bold text-black">Profilr</h1>
-                    <p className="text-xl sm:text-[2.25rem] text-gray-500 my-4 sm:mb-8">Talent Intelligence Software</p>
+                    <p className="text-xl sm:text-[2.25rem] text-gray-500 my-4 sm:mb-8">Talent Intelligence Softwaressss</p>
                 </div>
 
                 {/* Background Image */}
